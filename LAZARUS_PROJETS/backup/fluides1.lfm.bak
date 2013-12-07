@@ -1,0 +1,97 @@
+object MainForm: TMainForm
+  Left = 391
+  Height = 568
+  Top = 258
+  Width = 676
+  Caption = 'MainForm'
+  ClientHeight = 568
+  ClientWidth = 676
+  LCLVersion = '1.0.8.0'
+  object Label1: TLabel
+    Left = 0
+    Height = 30
+    Top = 0
+    Width = 676
+    Align = alTop
+    Alignment = taCenter
+    Caption = 'Gestion Fluides Cantin'
+    Color = clGray
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -24
+    Font.Name = 'Microsoft Sans Serif'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 518
+    Width = 676
+    Align = alBottom
+    ClientHeight = 50
+    ClientWidth = 676
+    Color = clGray
+    ParentColor = False
+    TabOrder = 0
+    object Button1: TButton
+      Left = 496
+      Height = 25
+      Top = 10
+      Width = 155
+      Caption = '&Fermer l''application'
+      Color = 12615680
+      OnClick = Button1Click
+      TabOrder = 0
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 488
+    Top = 30
+    Width = 136
+    ClientHeight = 488
+    ClientWidth = 136
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 1
+    object Button2: TButton
+      Left = 8
+      Height = 25
+      Top = 11
+      Width = 120
+      Caption = 'Liste formateurs'
+      TabOrder = 0
+    end
+    object Button3: TButton
+      Left = 8
+      Height = 25
+      Top = 43
+      Width = 120
+      Caption = 'Liste équipements'
+      TabOrder = 1
+    end
+    object Button4: TButton
+      Left = 8
+      Height = 25
+      Hint = 'Cliquez ici pour accéder à '#13#10'la fiche de l''intervention'
+      Top = 75
+      Width = 120
+      Caption = 'Interventions'
+      OnClick = Button4Click
+      TabOrder = 2
+    end
+    object Button5: TButton
+      Left = 8
+      Height = 25
+      Top = 107
+      Width = 120
+      Caption = 'Fiche intervention'
+      TabOrder = 3
+    end
+  end
+end

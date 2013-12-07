@@ -1,0 +1,20 @@
+object Form2: TForm2
+  Left = 278
+  Height = 506
+  Top = 162
+  Width = 681
+  Caption = 'Form2'
+  LCLVersion = '1.0.8.0'
+  object MySQL40Connection1: TMySQL40Connection
+    Connected = False
+    LoginPrompt = False
+    DatabaseName = 'fluides'
+    KeepConnection = False
+    Password = 'TOPOLINO'
+    UserName = 'root'
+    HostName = '172.18.56.68'
+    LogEvents = []
+    left = 148
+    top = 117
+  end
+end
