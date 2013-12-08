@@ -1,0 +1,56 @@
+unit ecfEditTMET;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
+  Buttons;
+
+type
+
+  { TForm3 }
+
+  TForm3 = class(TForm)
+    BitBtn1: TBitBtn;
+    BitBtn2: TBitBtn;
+    Label1: TLabel;
+    Memo1: TMemo;
+    SaveDialog1: TSaveDialog;
+    procedure BitBtn1Click(Sender: TObject);
+    procedure BitBtn2Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.lfm}
+
+{ TForm3 }
+
+procedure TForm3.FormCreate(Sender: TObject);
+begin
+  Memo1.Lines.LoadFromFile('Liste_TMCC.txt');
+end;
+
+procedure TForm3.BitBtn1Click(Sender: TObject);
+begin
+  if SaveDialog1.Execute then
+  Memo1.Lines.SaveToFile(SaveDialog1.FileName);
+end;
+
+procedure TForm3.BitBtn2Click(Sender: TObject);
+begin
+
+end;
+
+end.
+

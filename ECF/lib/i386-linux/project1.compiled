@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1363527598"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -vewnhi -Fi/home/phd/Dropbox/ECF/lib/i386-linux -Fl/opt/gnome/lib -Fu/home/phd/.lazarus/lib/lazreport/lib/i386-linux -Fu/usr/share/lazarus/1.0.8/components/printers/lib/i386-linux/gtk2 -Fu/usr/share/lazarus/1.0.8/components/rtticontrols/lib/i386-linux/gtk2 -Fu/usr/share/lazarus/1.0.8/components/lazcontrols/lib/i386-linux/gtk2 -Fu/usr/share/lazarus/1.0.8/components/synedit/units/i386-linux/gtk2 -Fu/usr/share/lazarus/1.0.8/ideintf/units/i386-linux/gtk2 -Fu/usr/share/lazarus/1.0.8/lcl/units/i386-linux/gtk2 -Fu/usr/share/lazarus/1.0.8/lcl/units/i386-linux -Fu/usr/share/lazarus/1.0.8/components/lazutils/lib/i386-linux -Fu/usr/share/lazarus/1.0.8/packager/units/i386-linux -Fu/home/phd/Dropbox/ECF/ -FU/home/phd/Dropbox/ECF/lib/i386-linux/ -l -dLCL -dLCLgtk2 project1.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>

@@ -1,0 +1,55 @@
+unit ecf2;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, SynEdit, Forms, Controls, Graphics, Dialogs,
+  ExtCtrls, StdCtrls, Buttons, ecfTMET, ecfits;
+
+type
+
+  { TForm2 }
+
+  TForm2 = class(TForm)
+    Bevel1: TBevel;
+    BitBtn1: TBitBtn;
+    BitBtn2: TBitBtn;
+    BitBtn3: TBitBtn;
+    BitBtn4: TBitBtn;
+    Image1: TImage;
+    Image2: TImage;
+    StaticText1: TStaticText;
+    procedure BitBtn1Click(Sender: TObject);
+    procedure BitBtn3Click(Sender: TObject);
+
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.lfm}
+
+{ TForm2 }
+
+
+
+procedure TForm2.BitBtn3Click(Sender: TObject);
+begin
+  FormTMET.Show;
+end;
+
+procedure TForm2.BitBtn1Click(Sender: TObject);
+begin
+  FormITS.Show;
+end;
+
+end.
+

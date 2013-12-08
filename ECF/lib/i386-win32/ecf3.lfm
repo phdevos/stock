@@ -1,0 +1,57 @@
+object Form3: TForm3
+  Left = 371
+  Height = 323
+  Top = 208
+  Width = 322
+  Caption = 'Liste de stagiaires'
+  ClientHeight = 323
+  ClientWidth = 322
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.0.12.0'
+  object Memo1: TMemo
+    Left = 21
+    Height = 210
+    Top = 58
+    Width = 278
+    ScrollBars = ssVertical
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 0
+    Height = 40
+    Top = 0
+    Width = 322
+    Align = alTop
+    Alignment = taCenter
+    Caption = 'Liste des stagiaires TMET'#13#10'pour entrée et mise à jour'#13#10'Entrée sous forme NOM prénom'
+    ParentColor = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 206
+    Height = 30
+    Top = 280
+    Width = 93
+    Caption = '&VALIDER'
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    TabOrder = 1
+  end
+  object BitBtn2: TBitBtn
+    Left = 124
+    Height = 30
+    Top = 280
+    Width = 75
+    Cancel = True
+    DefaultCaption = True
+    Kind = bkCancel
+    ModalResult = 2
+    TabOrder = 2
+  end
+  object SaveDialog1: TSaveDialog
+    left = 48
+    top = 280
+  end
+end
