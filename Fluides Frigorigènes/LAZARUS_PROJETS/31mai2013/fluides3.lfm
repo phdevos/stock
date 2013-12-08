@@ -1,0 +1,26 @@
+object FormReport: TFormReport
+  Left = 253
+  Height = 275
+  Top = 304
+  Width = 320
+  Caption = 'Fiche report'
+  LCLVersion = '1.0.8.0'
+  object frReport1: TfrReport
+    Dataset = frUserDataset1
+    InitialZoom = pzDefault
+    Options = []
+    PreviewButtons = [pbZoom, pbLoad, pbSave, pbPrint, pbFind, pbHelp, pbExit]
+    DataType = dtDataSet
+    OnGetValue = frReport1GetValue
+    left = 64
+    top = 40
+    ReportForm = {
+      19000000
+    }
+  end
+  object frUserDataset1: TfrUserDataset
+    OnCheckEOF = frUserDataset1CheckEOF
+    left = 169
+    top = 45
+  end
+end

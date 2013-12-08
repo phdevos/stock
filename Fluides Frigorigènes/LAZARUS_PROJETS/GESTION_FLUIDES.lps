@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="GESTION_FLUIDES.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="GESTION_FLUIDES"/>
+        <UsageCount Value="258"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="fluides1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Fluides1"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="11"/>
+        <CursorPos X="45" Y="26"/>
+        <UsageCount Value="258"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="fluides2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormIntervention"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="fluides2"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="112"/>
+        <CursorPos X="50" Y="104"/>
+        <UsageCount Value="258"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="fluides3.pas"/>
+        <ComponentName Value="FormReport"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Fluides3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="19"/>
+        <CursorPos X="1" Y="48"/>
+        <UsageCount Value="203"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="F:\lazaus_components\RXLIB\rxfpc\rxdbgrid.pas"/>
+        <UnitName Value="rxdbgrid"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1408"/>
+        <CursorPos X="9" Y="1423"/>
+        <UsageCount Value="7"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="fluides2 (copie).pas"/>
+        <HasResources Value="True"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="6"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="6"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="fluides2 (copie).lfm"/>
+        <HasResources Value="True"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <WindowIndex Value="0"/>
+          <TopLine Value="1"/>
+          <CursorPos X="1" Y="1"/>
+        </ExtraEditor1>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="GESTION_FLUIDES (copie).lpr"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="6"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="fluides1 (copie).lfm"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="lib\i386-win32\fluides2.lfm"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="fluides2.lfm"/>
+        <ComponentName Value="FormIntervention"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="232"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus\ideintf\objectinspector.pp"/>
+        <ComponentName Value="ObjectInspectorDlg"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ObjectInspector"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3844"/>
+        <CursorPos X="20" Y="3856"/>
+        <ComponentState Value="1"/>
+        <UsageCount Value="15"/>
+        <LoadedDesigner Value="True"/>
+      </Unit11>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="fluides1.pas"/>
+        <Caret Line="57" Column="3" TopLine="16"/>
+      </Position1>
+      <Position2>
+        <Filename Value="fluides1.pas"/>
+        <Caret Line="56" Column="3" TopLine="16"/>
+      </Position2>
+      <Position3>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="280" Column="67" TopLine="246"/>
+      </Position3>
+      <Position4>
+        <Filename Value="fluides1.pas"/>
+        <Caret Line="58" Column="3" TopLine="17"/>
+      </Position4>
+      <Position5>
+        <Filename Value="fluides1.pas"/>
+        <Caret Line="57" Column="3" TopLine="26"/>
+      </Position5>
+      <Position6>
+        <Filename Value="fluides1.pas"/>
+        <Caret Line="56" Column="3" TopLine="28"/>
+      </Position6>
+      <Position7>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="270" Column="72" TopLine="182"/>
+      </Position7>
+      <Position8>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="278" Column="103" TopLine="193"/>
+      </Position8>
+      <Position9>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="212" Column="3" TopLine="203"/>
+      </Position9>
+      <Position10>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="230" Column="74" TopLine="211"/>
+      </Position10>
+      <Position11>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="227" Column="6" TopLine="94"/>
+      </Position11>
+      <Position12>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="221" Column="3" TopLine="203"/>
+      </Position12>
+      <Position13>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="91" Column="5" TopLine="77"/>
+      </Position13>
+      <Position14>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="92" Column="5" TopLine="78"/>
+      </Position14>
+      <Position15>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="93" Column="5" TopLine="79"/>
+      </Position15>
+      <Position16>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="209" Column="1" TopLine="146"/>
+      </Position16>
+      <Position17>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="210" Column="38" TopLine="201"/>
+      </Position17>
+      <Position18>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="213" Column="20" TopLine="122"/>
+      </Position18>
+      <Position19>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="129" Column="73" TopLine="117"/>
+      </Position19>
+      <Position20>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="147" Column="23" TopLine="139"/>
+      </Position20>
+      <Position21>
+        <Filename Value="fluides1.pas"/>
+        <Caret Line="56" Column="3" TopLine="28"/>
+      </Position21>
+      <Position22>
+        <Filename Value="fluides1.pas"/>
+        <Caret Line="10" Column="3" TopLine="1"/>
+      </Position22>
+      <Position23>
+        <Filename Value="fluides1.pas"/>
+        <Caret Line="49" Column="1" TopLine="32"/>
+      </Position23>
+      <Position24>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="306" Column="28" TopLine="277"/>
+      </Position24>
+      <Position25>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="312" Column="3" TopLine="312"/>
+      </Position25>
+      <Position26>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="317" Column="3" TopLine="315"/>
+      </Position26>
+      <Position27>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="286" Column="3" TopLine="284"/>
+      </Position27>
+      <Position28>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="315" Column="1" TopLine="219"/>
+      </Position28>
+      <Position29>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="109" Column="30" TopLine="90"/>
+      </Position29>
+      <Position30>
+        <Filename Value="fluides2.pas"/>
+        <Caret Line="322" Column="5" TopLine="315"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
