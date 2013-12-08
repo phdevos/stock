@@ -1,0 +1,27 @@
+program ECF;
+
+{$mode objfpc}{$H+}
+
+uses
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Interfaces, // this includes the LCL widgetset
+  Forms, runtimetypeinfocontrols, lazcontrols, ecfTMET, ecfMainForm,
+ecfeditStagiaire, ecfITS, ecfEditITS
+  { you can add units after this };
+
+{$R *.res}
+
+begin
+  Application.Title:='Générateur ECF';
+  RequireDerivedFormResource := True;
+  Application.Initialize;
+  Application.CreateForm(TMainForm, MainForm);
+  Application.CreateForm(TFormTMET, FormTMET);
+  Application.CreateForm(TFormEditStagiaire, FormEditStagiaire);
+  Application.CreateForm(TFormITS, FormITS);
+  Application.CreateForm(TFormEditStagITS, FormEditStagITS);
+  Application.Run;
+end.
+
